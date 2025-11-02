@@ -1,0 +1,152 @@
+.about {
+    width:100% ;
+    display: flex;
+    padding: 100px 0;
+}
+.about-container {
+    max-width:1200px;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-rows:repeat(6,300px);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+
+    "a1 a1 a2"
+    "a1 a1 a2"
+    "a1 a1 a3"
+    "a4 a4 a5"
+    "a6 a6 a6"
+    "a7 a8 a8"
+    ;
+}
+.about-container div{
+    background-color: #EAEAEA;
+    border-radius: 25px;
+}
+
+.about1 {
+    grid-area: a1;
+    padding: 25px;
+}
+.about1 img{
+    width: 100%;
+    height: 65%;
+    border-radius:25px ;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.676);
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+.about1 h2{
+    font-size: 3rem;
+    margin-bottom:10px ;
+}
+.about1 p{
+    font-size: 1.5rem;
+}
+
+
+
+.about2 {
+    grid-area: a2;
+    padding: 20px;
+}
+.about2 img{
+    width: 100%;
+    height: 65%;
+    border-radius:25px ;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.676);
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+.about2 h2{
+    margin-bottom:10px ;
+}
+
+
+
+
+.about3 {
+    grid-area: a3;
+    padding: 25px;
+}
+.about3 img{
+    width: 60%;
+    height: 70%;
+    border-radius:25px ;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.676);
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+
+.about4 {
+    grid-area: a4;
+    padding: 0px;
+}
+.about4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:25px ;
+}
+
+
+.about5 {
+    grid-area: a5;
+    position: relative;
+}
+.about-5-img1{
+    position: absolute;
+    left: 50%;
+    top: 50%  ;
+    transform: translate(-50%,-50%);
+}
+.about-5-img2{
+    position: absolute;
+    top: 55%;
+    right: 15%;
+}
+.about6 {
+    grid-area: a6;
+    position: relative;
+    padding: 20px;
+}
+.about6 img{
+    box-shadow: 1px 1px 8px black;
+    border-radius: 25px;
+}
+.about6 h2{
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+.about6 p{
+    position: absolute;
+    top: 15px ;
+    width: 120px;
+    right: 25px;
+}
+.about7 {
+    grid-area: a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(47.63% 72.48% at 28.93% 96.58%, #FF542F 0%, rgba(255, 84, 47, 0) 100%),
+    linear-gradient(299.79deg, #FF055F -2.61%, #0BB6FF 100%);
+    color: white;
+}
+.about8 {
+    grid-area: a8;
+
+}
+.about8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}

@@ -1,0 +1,151 @@
+@media (min-width:3500px) {
+    .header{
+        max-height: 1400px;
+    }
+}
+@media (max-width:1162px){
+    .about6 img{
+        width:500px ;
+    }
+}
+@media (max-width:1206px){
+    .header-right{
+        width:400px ;
+        height: 300px;
+    }
+}
+@media (max-width:1001px){
+    .about-container{
+        grid-template-rows:repeat(6,230px);
+    }
+    .about-5-img1{
+        width: 60%;
+    }
+    .about-5-img2{
+        width: 25%;
+    }
+}
+@media (max-width:850px) {
+    .about1 p {
+        font-size: 1rem;
+    }
+    .about1 h2{
+        font-size: 2rem;
+    }
+    label{
+        font-size: 1rem;
+    }
+    .stages p{
+        font-size: 2rem;
+    }
+    .stages h2{
+        font-size: 5rem;
+    }
+    .stages-container{
+        grid-template-rows: repeat(3,200px);
+    }
+    .nav-form{
+        width: 75%;
+        height: 450px;
+    }
+}
+@media (max-width:750px) {
+    .header-right{
+        display: none;
+    }
+    .header-left  {
+        align-items: center;
+        text-align: center;
+        width:80% ;
+    }
+    .about6 img{
+        display: none;
+    }
+    .about6 p{
+        width: 100%;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .portfolio-fotos{
+        height: 450px;
+    }
+}
+@media (max-width:650px) {
+    .nav-form h2{
+        align-items: center;
+        font-size: 2rem;
+    }
+    .about-container{
+        grid-template-rows:repeat(9,400px);
+        grid-template-columns: repeat(1,1fr);
+        grid-template-areas: 
+
+        "a1"
+        "a1"
+        "a2"
+        "a3"
+        "a4"
+        "a5"
+        "a6"
+        "a7"
+        "a8"
+        ;
+    }
+    .about1 img{
+        width: 100%;
+
+    }
+    .about2 img{
+        width: 70%;
+    }
+    .about3 img{
+        width: 70%;
+    }
+    .about6 h2{
+        position: relative;
+        bottom: -50px;
+        right: -30px;
+    }
+
+    .stages-container{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(7,200px);
+        grid-template-areas:
+        "st1"
+        "st1"
+        "st2"
+        "st3"
+        "st4"
+        "st5"
+        "st6"
+    }  
+}
+@media (max-width:430px) {
+    .portfolio-fotos{
+        height: 250px;
+    }
+    .about-container{
+        grid-template-rows:repeat(9,335px);
+    }
+    .nav-form{
+        width: 95%;
+    }
+    .nav-buttom{
+        width: 160px;
+        height: 55px;
+    }
+    .nav-input{
+        width: 85%;
+        height: 45px;
+    }
+    .nav-label{
+        width: 175px;
+    }
+    .nav-logo{
+        width: 115px;
+    }
+    .header-left h1{
+        font-size: 2.5rem;
+    }
+}
